@@ -100,10 +100,10 @@ export default function Pricing() {
               从 10 人团队到企业级组织，统一的数据决策能力一步到位。
             </p>
             <div className="flex items-center justify-center gap-6">
-              <Link to="demo" className="btn-primary">
+              <Link to="/demo" className="btn-primary">
                 预约产品演示
               </Link>
-              <Link to="features" className="btn-secondary inline-flex items-center gap-1">
+              <Link to="/features" className="btn-secondary inline-flex items-center gap-1">
                 查看功能详情
                 <ArrowRight className="w-4 h-4" />
               </Link>
@@ -145,7 +145,7 @@ export default function Pricing() {
                       </li>
                     ))}
                   </ul>
-                  <Link to="demo" className="btn-primary w-full justify-center">
+                  <Link to="/demo" className="btn-primary w-full justify-center">
                     {plan.cta}
                   </Link>
                 </article>

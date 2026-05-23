@@ -145,7 +145,7 @@ export default function Features() {
             <BarChart3 className="w-10 h-10 text-primary-600 mx-auto mb-6" />
             <h2 className="t-h2 mb-4">1天接入，亲眼看看效果</h2>
             <p className="t-body-lg mb-8">预约产品演示后可开启7天试用，不需要信用卡</p>
-            <Link to="demo" className="btn-primary group">
+            <Link to="/demo" className="btn-primary group">
               预约产品演示
               <ArrowRight className="w-4 h-4 ml-2 transition-transform duration-200 group-hover:translate-x-1" />
             </Link>

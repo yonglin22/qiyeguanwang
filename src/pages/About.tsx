@@ -128,7 +128,7 @@ export default function About() {
             <p className="text-lg text-neutral-400 mb-8 leading-relaxed">
               80% 时间做决策，20% 时间整理数据。这才是数据分析该有的样子。
             </p>
-            <Link to="demo" className="btn-inverted group">
+            <Link to="/demo" className="btn-inverted group">
               预约产品演示
               <ArrowRight className="w-4 h-4 ml-2 transition-transform duration-200 group-hover:translate-x-1" />
             </Link>

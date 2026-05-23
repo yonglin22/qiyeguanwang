@@ -3,9 +3,9 @@ import { Link, useLocation } from 'react-router-dom';
 import { BarChart3, Menu, X } from 'lucide-react';
 
 const navLinks = [
-  { label: '功能', href: 'features' },
-  { label: '定价', href: 'pricing' },
-  { label: '关于', href: 'about' },
+  { label: '功能', href: '/features' },
+  { label: '定价', href: '/pricing' },
+  { label: '关于', href: '/about' },
 ];
 
 export default function Navbar() {
@@ -33,7 +33,7 @@ export default function Navbar() {
     >
       <div className="container-app">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link to="" className="flex items-center gap-2.5 group">
+          <Link to="/" className="flex items-center gap-2.5 group">
             <div className="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center group-hover:bg-primary-700 transition-colors">
               <BarChart3 className="w-5 h-5 text-white" />
             </div>
@@ -57,7 +57,7 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center gap-3">
-            <Link to="demo" className="btn-primary-sm">
+            <Link to="/demo" className="btn-primary-sm">
               预约产品演示
             </Link>
           </div>
@@ -90,7 +90,7 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="pt-2">
-              <Link to="demo" className="btn-primary-sm w-full justify-center">
+              <Link to="/demo" className="btn-primary-sm w-full justify-center">
                 预约产品演示
               </Link>
             </div>
