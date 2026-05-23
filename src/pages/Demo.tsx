@@ -20,6 +20,12 @@ export default function Demo() {
     setFormState('submitting');
     setErrorMsg('');
 
+    if (!supabase) {
+      setErrorMsg('站点未配置数据服务，请先联系管理员：1016020816@qq.com');
+      setFormState('error');
+      return;
+    }
+
     try {
       const { error } = await supabase.from('demo_requests').insert([
         {
