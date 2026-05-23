@@ -78,11 +78,11 @@ export default function Home() {
                 AI 直接告诉你为什么波动、下一步该做什么。
               </p>
               <div className="flex flex-col sm:flex-row gap-4 animate-fade-in animate-delay-300">
-                <Link to="/demo" className="btn-primary group">
+                <Link to="demo" className="btn-primary group">
                   预约产品演示
                   <ArrowRight className="w-4 h-4 ml-2 transition-transform duration-200 group-hover:translate-x-1" />
                 </Link>
-                <Link to="/features" className="btn-secondary">
+                <Link to="features" className="btn-secondary">
                   查看功能详情
                 </Link>
               </div>
@@ -184,7 +184,7 @@ export default function Home() {
             <p className="text-lg text-neutral-400 mb-8 leading-relaxed">
               1天接入，7天试用，不需要信用卡。
             </p>
-            <Link to="/demo" className="btn-inverted group">
+            <Link to="demo" className="btn-inverted group">
               预约产品演示
               <ArrowRight className="w-4 h-4 ml-2 transition-transform duration-200 group-hover:translate-x-1" />
             </Link>
